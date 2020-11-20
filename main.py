@@ -1,4 +1,4 @@
-temp1 = 80
+temp1 = 50
 while True:
         if temp1 > 70:
             light.set_all(light.rgb(255, 0, 0 ))

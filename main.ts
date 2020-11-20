@@ -1,4 +1,4 @@
-let temp1 = 80
+let temp1 = 50
 while (true) {
     if (temp1 > 70) {
         light.setAll(light.rgb(255, 0, 0))
