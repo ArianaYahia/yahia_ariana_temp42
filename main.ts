@@ -1,7 +1,6 @@
-let tempf = 84
+let temp1 = 75
 while (true) {
-    console.log("temperature" + input.temperature(TemperatureUnit.Fahrenheit))
-    if (input.temperature(TemperatureUnit.Fahrenheit) > tempf) {
+    if (temp1 > 60) {
         light.setPixelColor(4, light.rgb(255, 0, 0))
     } else {
         light.clear()
