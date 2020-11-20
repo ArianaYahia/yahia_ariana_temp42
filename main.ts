@@ -1,4 +1,4 @@
-let temp1 = 75
+let temp1 = 50
 while (true) {
     if (temp1 > 60) {
         light.setPixelColor(4, light.rgb(255, 0, 0))

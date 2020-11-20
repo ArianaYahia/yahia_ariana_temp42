@@ -1,4 +1,4 @@
-temp1 = 75
+temp1 = 50
 while True:
         if temp1 > 60:
             light.set_pixel_color(4, light.rgb(255, 0, 0 ))
@@ -6,3 +6,6 @@ while True:
             light.set_pixel_color(4, light.rgb(0, 255, 0 ))
         else: 
             light.set_pixel_color(4, light.rgb(0, 0, 255 ))
+
+
+
