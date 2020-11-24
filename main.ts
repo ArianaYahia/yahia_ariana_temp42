@@ -1,6 +1,6 @@
 while (true) {
-    console.log("Temperature" + input.temperature(TemperatureUnit.Fahrenheit))
-    if (input.temperature(TemperatureUnit.Fahrenheit) > 80) {
+    console.log("temperature" + input.temperature(TemperatureUnit.Fahrenheit))
+    if (input.temperature(TemperatureUnit.Fahrenheit) > 75) {
         light.setAll(light.rgb(255, 255, 0))
     } else if (input.temperature(TemperatureUnit.Fahrenheit) > 40) {
         light.setAll(light.rgb(255, 0, 255))
